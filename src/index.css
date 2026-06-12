@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=DM+Sans:wght@400;700&family=Red+Hat+Display:wght@700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", sans-serif;
+  
+  --color-gold: #b49b4c;
+  --color-gold-dark: #a68b39;
+  --color-ink: #1a1a1a;
+  --color-gray-bg: #f5f5f5;
+  --color-border-light: #e5e5e5;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-white text-ink antialiased overflow-x-hidden;
+    font-family: 'DM Sans', sans-serif;
+  }
+}
+
+@layer utilities {
+  .tracking-extrawide {
+    letter-spacing: 0.4em;
+  }
+}
+
+@layer components {
+  .request-input {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .request-input::placeholder {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #5D666F;
+    opacity: 1;
+  }
+}
