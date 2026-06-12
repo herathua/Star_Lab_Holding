@@ -436,12 +436,12 @@ Most recently, he co-founded a sustainability and impact investing research firm
           <div className="mt-12 grid w-full gap-6 lg:grid-cols-3">
             {[
               {
-                image: '/images/starlab token.png',
+                image: '/images/star found.png',
                 title: 'WEB3 & TOKENIZATION INFRASTRUCTURE',
                 text: 'Independent strategic technology partner providing Web3 infrastructure, tokenization, digital rewards, blockchain integrations, and next-generation community engagement solutions.'
               },
               {
-                image: '/images/star found.png',
+                image: '/images/starlab token.png',
                 title: 'STAR LAB TOKEN',
                 text: 'Independent rewards and access token designed to incentivize engagement, unlock experiences, and provide exclusive benefits across the Star Lab ecosystem. Tradable on approved platforms.'
               },
